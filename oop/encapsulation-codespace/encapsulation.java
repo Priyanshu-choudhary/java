@@ -1,10 +1,19 @@
- class Employee{
-    static int empId=2;
-     String empName="yadi";
-     int empSalery=1000;
+ class encapsulation{
  public static void main (String[] args){
-    Employee opj = new  Employee();
-    empId=7;
-    System.out.println(empId);
+    encapsulation obj = new  encapsulation();
+    Employee doctor = new  Employee();
+    doctor.empId=7;
+    
+    System.out.println(doctor.empId);
+    System.out.println(doctor.empName);
+    System.out.println(doctor.empSalery);
+    
+    doctor.empId=156;
+    doctor.empName="choudhary shahab";
+    doctor.empSalery=1565166;
+    System.out.println(doctor.empId);
+    System.out.println(doctor.empName);
+    System.out.println(doctor.empSalery);
+    
 }
 }
