@@ -1,5 +1,5 @@
 class Mybank {
-public static void main (System[] args){
+public static void main(System[] args){
 	Sbi sbiCalling = new Sbi();
 
 	sbiCalling.getdata();
