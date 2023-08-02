@@ -3,7 +3,7 @@ abstract class bank {
 }
 
 class sbi extends bank {
-	void getdata (){
-		System.out.print("getting data ...");
-}
+ public void getdata (){
+  System.out.print("getting data ...");
+ }
 }
