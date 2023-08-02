@@ -1,8 +1,8 @@
-abstract class bank {
+abstract class Bank {
 	abstract void getdata();
 }
 
-class Sbi extends bank {
+class Sbi extends Bank {
  public void getdata (){
   System.out.print("getting data ...");
  }
