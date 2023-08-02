@@ -4,6 +4,6 @@ abstract class bank {
 
 class sbi extends bank {
 	void getdata (){
-		system.out.print("getting data ...");
+		System.out.print("getting data ...");
 }
 }
