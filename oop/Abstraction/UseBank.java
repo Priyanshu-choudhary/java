@@ -1,6 +1,6 @@
 class UseBank{
  public static void main(System[] args) {
-  Bank calling = new Bank();
+  Sbi calling = new Sbi();
   calling.info();
  }
 }
