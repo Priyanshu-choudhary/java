@@ -1,8 +1,8 @@
 import java.util.*;
 class LinkList {
-public static void main(Strings[] args){
+ public static void main(String[] args){
 	List list = new ArrayList();
-	LinkList a = new LinkList();
+	//LinkList a = new LinkList();
 	list.add(23);
 	System.out.print(list);
  }
