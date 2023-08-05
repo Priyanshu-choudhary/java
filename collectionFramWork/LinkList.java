@@ -1,7 +1,9 @@
 import java.util.*;
 class LinkList {
+public static void main(System[] args){
 	List list = new ArrayList();
-//	list.add(23);
-//	System.out.print(list);
-
+	LinkList a = new LinkList();
+	list.add(23);
+	System.out.print(list);
+ }
 }
