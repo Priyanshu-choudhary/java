@@ -1,0 +1,9 @@
+#string folder
+s(){
+cd /home/priyanshu/java/string
+}
+
+#array folder
+a(){
+cd /home/priyanshu/java/array
+}
