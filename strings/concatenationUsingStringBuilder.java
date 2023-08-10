@@ -5,7 +5,10 @@ public class  concatenationUsingStringBuilder
     {  
         StringBuilder s1 = new StringBuilder("Hello");    //String 1  
         StringBuilder s2 = new StringBuilder(" World"); 
-        StringBuilder s = s1.append(s2);   //String 3 to store the result  
-        System.out.println(s.toString());  //Displays result  
+        String test = "test";
+	StringBuilder s = s1.append(s2);   //String 3 to store the result  
+        System.out.println(s.toString());
+	 StringBuilder s = s.append(test);
+	 System.out.println(s.toString());  //Displays result  
     }  
 }  
