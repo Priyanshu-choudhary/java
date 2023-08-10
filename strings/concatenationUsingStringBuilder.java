@@ -1,4 +1,4 @@
-public class StrBuilder  
+public class  concatenationUsingStringBuilder  
 {  
     /* Driver Code */  
     public static void main(String args[])  
