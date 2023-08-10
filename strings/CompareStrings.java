@@ -1,4 +1,4 @@
-class Teststringcomparison2{
+class CompareString{
  public static void main(String args[]){
    String s1="Sachin";
    String s2="Sachin";
