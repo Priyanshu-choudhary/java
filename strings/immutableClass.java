@@ -9,7 +9,7 @@ public String getPancardNumber(){
 return pancardNumber;    
 }    
 }    
-public class ImmutableDemo  
+public class  immutableClass
 {  
 public static void main(String ar[])  
 {  
