@@ -4,11 +4,15 @@ class CompareString{
    String s2="Sachin";
    String s3="SACHIN";
    String s4="yadi";
-
+//equals method
    System.out.println(s1.equals(s2));
    System.out.println(s1.equals(s4));
    System.out.println(s1.equalsIgnoreCase(s3));
- }
+//compareTo method
+   System.out.println(s1.compareTo(s2));
+   System.out.println(s1.compareTo(s3));
+   System.out.println(s1.compareTo(s4)); 
+}
 }
 
 
