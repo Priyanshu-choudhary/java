@@ -4,7 +4,8 @@ public class JavaExceptionExample{
       //code that may raise exception  
       int data=100/0;  
    }catch(ArithmeticException e){System.out.println(e);}  
-   //rest code of the program   
+  try {String s=null;  
+	System.out.println(s.length());}catch(ArithmeticException e){System.out.println(e);}
    System.out.println("rest of the code...");  
   }  
 }  
