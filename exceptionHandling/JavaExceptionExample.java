@@ -5,7 +5,7 @@ public class JavaExceptionExample{
       int data=100/0;  
    }catch(ArithmeticException e){System.out.println(e);}  
   try {String s=null;  
-	System.out.println(s.length());}catch(ArithmeticException e){System.out.println(e);}
+	System.out.println(s.length());}catch(NullPointerException e){System.out.println(e);}
    System.out.println("rest of the code...");  
   }  
 }  
