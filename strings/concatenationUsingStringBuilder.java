@@ -10,5 +10,8 @@ public class  concatenationUsingStringBuilder
         System.out.println(s.toString());
 	 s = s.append(test);
 	 System.out.println(s.toString());  //Displays result  
+        int a=78; 
+	s = s.append(a);
+         System.out.println(s.toString()); 
     }  
 }  
