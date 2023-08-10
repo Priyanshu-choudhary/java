@@ -8,7 +8,7 @@ public class  concatenationUsingStringBuilder
         String test = "test";
 	StringBuilder s = s1.append(s2);   //String 3 to store the result  
         System.out.println(s.toString());
-	 StringBuilder s = s.append(test);
+	 s = s.append(test);
 	 System.out.println(s.toString());  //Displays result  
     }  
 }  
