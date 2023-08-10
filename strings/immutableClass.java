@@ -1,4 +1,4 @@
-public final class Employee  
+final class Employee  
 {    
 final String pancardNumber;    
 public Employee(String pancardNumber)  
