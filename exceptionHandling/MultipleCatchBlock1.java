@@ -1,4 +1,4 @@
-public class MultipleCatchBlock {  
+public class MultipleCatchBlock1 {  
   
     public static void main(String[] args) {  
           
