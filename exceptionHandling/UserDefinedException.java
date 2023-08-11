@@ -1,5 +1,5 @@
 // class represents user-defined exception  
-class UserDefinedException extends Exception  
+class UserDefinedExceptionClass extends Exception  
 {  
     public UserDefinedException(String str)  
     {  
@@ -8,16 +8,16 @@ class UserDefinedException extends Exception
     }  
 }  
 // Class that uses above MyException  
-public class TestThrow3  
+public class UserDefinedException 
 {  
     public static void main(String args[])  
     {  
         try  
         {  
             // throw an object of user defined exception  
-            throw new UserDefinedException("This is user-defined exception");  
+            throw new UserDefinedExceptionClass("This is user-defined exception");  
         }  
-        catch (UserDefinedException ude)  
+        catch (UserDefinedExceptionClass ude)  
         {  
             System.out.println("Caught the exception");  
             // Print the message from MyException object  
