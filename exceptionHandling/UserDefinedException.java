@@ -1,7 +1,7 @@
 // class represents user-defined exception  
 class UserDefinedExceptionClass extends Exception  
 {  
-    public UserDefinedException(String str)  
+    public UserDefinedExceptionClass(String str)  
     {  
         // Calling constructor of parent Exception  
         super(str);  
