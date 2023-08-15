@@ -24,7 +24,7 @@ public static void main (String args[]){
 	t1.start();
 	t2.start();
 	t1.setPriority(10);  
-	t2.setPriority(9);  
+	t2.setPriority(1);  
 /*
 t1.start();
 
