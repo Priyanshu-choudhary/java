@@ -1,5 +1,5 @@
 class test1 extends Thread{
-void run(){
+public void run(){
  for(int i = 0;i<10;i++){
 	Thread.sleep(1000);
 	System.out.print(i);
@@ -7,7 +7,7 @@ void run(){
 }
 }
 class test2 extends Thread{
-void run(){
+public void run(){
  for(int i = 0;i<10;i++){
 	Thread.sleep(1000);
 	System.out.print(i);
