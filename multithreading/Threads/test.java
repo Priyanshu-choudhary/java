@@ -1,11 +1,11 @@
 class test1 extends Thtead{
-run(){
+void run(){
  for(int i = 0;i<10;i++){
 	Thread.sleep(1000);
 	System.out.print(i);
 }
 class test2 extends Thtead{
-run(){
+void run(){
  for(int i = 0;i<10;i++){
 	Thread.sleep(1000);
 	System.out.print(i);
