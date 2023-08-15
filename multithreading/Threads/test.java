@@ -1,7 +1,10 @@
 class test1 extends Thread{
 public void run(){
  for(int i = 0;i<10;i++){
-	Thread.sleep(1000);
+	try {
+ 		 Thread.sleep(1000);
+	} catch (InterruptedException e) {Thread.currentThread().interrupt();}
+	
 	System.out.print(i);
 }
 }
@@ -9,7 +12,10 @@ public void run(){
 class test2 extends Thread{
 public void run(){
  for(int i = 0;i<10;i++){
-	Thread.sleep(1000);
+	try {
+ 		 Thread.sleep(1000);
+	} catch (InterruptedException e) {Thread.currentThread().interrupt();}
+	
 	System.out.print(i);
 }
 }
