@@ -6,7 +6,7 @@ try{Thread.sleep(300);
 System.out.println("The current thread name is: " + Thread.currentThread().getName());  }catch(Exception e){System.out.println("The exception has been caught: " + e);}
 System.out.println( j );  
 }}}
-public class ThreadJoinExample{
+class ThreadJoinExample{
 public static void main (String argvs[]){
 ThreadJoin th1 = new ThreadJoin();
 ThreadJoin th2 = new ThreadJoin();
