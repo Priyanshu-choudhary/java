@@ -29,8 +29,7 @@ class TestSleepMethod1 extends Thread{
          
   TestSleepMethod1 t12=new TestSleepMethod1();    
          
-  TestSleepMethod1 t12=new TestSleepMethod1();    
-     
+  
   t1.start();    
   t2.start();    
   t3.start();    
@@ -40,8 +39,8 @@ class TestSleepMethod1 extends Thread{
   t7.start();    
   t8.start();    
   t9.start();    
-  t.start();    
-  t2.start();    
-  t2.start();    
+  t10.start();    
+  t11.start();    
+  t12.start();    
  }    
 }    
