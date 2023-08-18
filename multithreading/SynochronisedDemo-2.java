@@ -10,7 +10,7 @@ class Table{
  }  
 }  
   
-public class TestSynchronization3{  
+class Synchronization3{  
 public static void main(String args[]){  
 final Table obj = new Table();//only one object  
   
