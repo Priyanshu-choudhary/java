@@ -1,9 +1,9 @@
-class ThreadGroup implements Runnable{    
+ class ThreadGroupDemo implements Runnable{    
     public void run() {    
           System.out.println(Thread.currentThread().getName());    
     }    
    public static void main(String[] args) {    
-      ThreadGroup runnable = new ThreadGroup();    
+      ThreadGroupDemo runnable = new ThreadGroupDemo();    
           ThreadGroup tg1 = new ThreadGroup("Parent ThreadGroup");    
               
           Thread t1 = new Thread(tg1, runnable,"one");    
