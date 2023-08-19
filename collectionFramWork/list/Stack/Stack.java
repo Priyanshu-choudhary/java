@@ -1,7 +1,7 @@
 // Java program to demonstrate the
 // working of a stack
 import java.util.*;
-public class Stack {
+public class Stacktest {
 
 	// Main Method
 	public static void main(String args[])
