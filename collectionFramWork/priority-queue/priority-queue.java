@@ -33,7 +33,7 @@ class GfG {
 		System.out.println(pQueue.peek());
         	
 for(int i:pQueue){
-	System.out.println(pQueue.indexOf[i]);
+	System.out.println(pQueue.elementAt[i]);
 }
 }
 }
