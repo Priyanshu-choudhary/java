@@ -12,9 +12,15 @@ class GfG {
 			= new PriorityQueue<Integer>();
 
 		// Adding items to the pQueue using add()
-		pQueue.add(10);
-		pQueue.add(20);
-		pQueue.add(15);
+		pQueue.add(1);
+		pQueue.add(2);
+		pQueue.add(3);
+		pQueue.add(4);
+		pQueue.add(5);
+		pQueue.add(6);
+		pQueue.add(7);
+		pQueue.add(8);
+		pQueue.add(9);
 
 		// Printing the top element of PriorityQueue
 		System.out.println(pQueue.peek());
