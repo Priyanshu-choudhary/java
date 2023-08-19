@@ -8,7 +8,7 @@ class GfG {
 	public static void main(String args[])
 	{
 		// Creating empty priority queue
-		PriorityQueue<Integer> pQueue
+	PriorityQueue<Integer> pQueue
 			= new PriorityQueue<Integer>();
 
 		// Adding items to the pQueue using add()
@@ -31,5 +31,9 @@ class GfG {
 
 		// Printing the top element again
 		System.out.println(pQueue.peek());
-	}
+        	
+for(int i:pQueue){
+	System.out.println(pQueue.indexOf[i]);
+}
+}
 }
