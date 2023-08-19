@@ -13,6 +13,8 @@ import java.util.*;
 		stack.push("Geeks");
 		stack.add("add1");
 		stack.add("add2");
+		stack.pop("add3");
+		stack.pop("add4");
 
 		// Iterator for the stack
 		Iterator<String> itr = stack.iterator();
