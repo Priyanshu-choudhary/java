@@ -10,7 +10,7 @@ class Vector {
 	{
 
 		// Declaring the Vector
-		List v = new Vector();
+		Vector<Integer> v = new Vector();
 
 		// Appending new elements at
 		// the end of the list
