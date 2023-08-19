@@ -11,6 +11,8 @@ import java.util.*;
 		stack.push("For");
 		stack.push("Geeks");
 		stack.push("Geeks");
+		stack.add("add1");
+		stack.add("add2");
 
 		// Iterator for the stack
 		Iterator<String> itr = stack.iterator();
@@ -24,12 +26,12 @@ import java.util.*;
 
 		stack.pop();
 
-/*		// Iterator for the stack
+		// Iterator for the stack
 		itr = stack.iterator();
 
 		// Printing the stack
 		while (itr.hasNext()) {
 			System.out.print(itr.next() + " ");
 		}
-*/	}
+	}
 }
