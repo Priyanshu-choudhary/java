@@ -11,15 +11,12 @@ class GFG {
 
 		// Declaring the ArrayList with
 		// initial size n
-		ArrayList<Integer,Float,String> al = new ArrayList<Integer>();
+		List<Integer> al = new ArrayList();
 
 		// Appending new elements at
 		// the end of the list
 		for (int i = 1; i <= 5; i++)
 			al.add(i);
-			al.add(i+0.5);
-			al.add(i+0.99);
-			al.add("anju"+i);
 
 		// Printing elements
 		System.out.println(al);
