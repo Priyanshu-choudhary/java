@@ -1,7 +1,7 @@
 // Java program to demonstrate the
 // working of a stack
 import java.util.*;
-public class GFG {
+ class GFG {
 
 	// Main Method
 	public static void main(String args[])
@@ -30,6 +30,6 @@ public class GFG {
 		// Printing the stack
 		while (itr.hasNext()) {
 			System.out.print(itr.next() + " ");
-*/		}
-	}
+		}
+*/	}
 }
