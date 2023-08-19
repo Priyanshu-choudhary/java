@@ -17,7 +17,7 @@ class GFG {
 		// the end of the list
 		for (int i = 1; i <= 5; i++)
 			al.add(i);
-			al.add(i+0.5;
+			al.add(i+0.5);
 			al.add(i+0.99);
 			al.add("anju"+i);
 
