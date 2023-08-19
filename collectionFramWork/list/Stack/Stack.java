@@ -6,14 +6,14 @@ class test {
 	// Main Method
 	public static void main(String args[])
 	{
-		Stack<String> stack = new Stack<String>();
-		stack.push("Geeks");
-		stack.push("For");
-		stack.push("Geeks");
-		stack.push("Geeks");
+		Stack<String> s = new Stack<String>();
+		s.push("Geeks");
+		s.push("For");
+		s.push("Geeks");
+		s.push("Geeks");
 
 		// Iterator for the stack
-		Iterator<String> itr = stack.iterator();
+		Iterator<String> itr = s.iterator();
 
 		// Printing the stack
 		while (itr.hasNext()) {
@@ -22,10 +22,10 @@ class test {
 
 		System.out.println();
 
-		stack.pop();
+		s.pop();
 
 		// Iterator for the stack
-		itr = stack.iterator();
+		itr = s.iterator();
 
 		// Printing the stack
 		while (itr.hasNext()) {
