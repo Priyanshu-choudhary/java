@@ -1,8 +1,7 @@
 // Java program to demonstrate the
 // working of a HashMap
 import java.util.*;
-
-public class HashMapDemo {
+class HashMapDemo {
 
 	// Main Method
 	public static void main(String args[])
@@ -15,7 +14,7 @@ public class HashMapDemo {
 		hm.put(1, "Geeks");
 		hm.put(2, "For");
 		hm.put(3, "Geeks");
-
+		hm.add("Geeks");
 		// Finding the value for a key
 		System.out.println("Value for 1 is " + hm.get(1));
 
