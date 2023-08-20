@@ -1,8 +1,7 @@
 // Java program to demonstrate the
 // working of a HashSet
 import java.util.*;
-
-public class HashSetDemo {
+ class HashSetDemo {
 
 	// Main Method
 	public static void main(String args[])
