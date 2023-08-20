@@ -7,8 +7,8 @@ public class ArrayDequeDemo {
 	{
 		// Initializing an deque
 		ArrayDeque<Integer> de_que
-			= new ArrayDeque<Integer>(10);
-
+      			= new ArrayDeque<Integer>(10);
+                                            
 		// add() method to insert
 		de_que.add(10);
 		de_que.add(20);
