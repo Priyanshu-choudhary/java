@@ -12,10 +12,10 @@ public class ArrayDequeDemo {
 		// add() method to insert
 		de_que.add(10);
 		de_que.add(20);
-		de_que.add(30);
+    		de_que.add(30);
 		de_que.add(40);
-		de_que.add(50);
-
+ 		de_que.add(50);
+     
 		System.out.println(de_que);
 
 		// clear() method
