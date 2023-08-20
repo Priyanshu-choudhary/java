@@ -14,7 +14,7 @@ class HashMapDemo {
 		hm.put(1, "Geeks");
 		hm.put(2, "For");
 		hm.put(3, "Geeks");
-		hm.add("Geeks");
+//		hm.add("Geeks");
 		// Finding the value for a key
 		System.out.println("Value for 1 is " + hm.get(1));
 
