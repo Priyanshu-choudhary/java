@@ -2,7 +2,7 @@
 // ArrayDeque class in Java
 
 import java.util.*;
-public class ArrayDequeDemo {
+ class ArrayDequeDemo {
 	public static void main(String[] args)
 	{
 		// Initializing an deque
