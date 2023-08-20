@@ -1,8 +1,7 @@
 // Java program to demonstrate the
 // working of a TreeSet
 import java.util.*;
-
-public class TreeSetDemo {
+ class TreeSetDemo {
 
 	// Main Method
 	public static void main(String args[])
