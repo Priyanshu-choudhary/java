@@ -1,5 +1,6 @@
+import java.util.*;
 class example{
-public static void main (Strings args[]){
+public static void main (String args[]){
 List<String> words = new ArrayList<String>();
 words.add("Hello ");
 words.add("world!");
