@@ -1,41 +1,52 @@
-// Java Program to demonstrate usage of BlockingQueue
+// Java program that explains the internal
+// implementation of BlockingQueue
 
-import java.util.concurrent.*;
+import java.io.*;
 import java.util.*;
 
- class BlockingQueueDemo {
+class BlockingQueue<E> {
 
-	public static void main(String[] args)
+	// BlockingQueue using LinkedList structure
+	// with a constraint on capacity
+	private List<E> queue = new LinkedList<E>();
+
+	// limit variable to define capacity
+	private int limit = 10;
+
+	// constructor of BlockingQueue
+	public BlockingQueue(int limit) { this.limit = limit; }
+
+	// enqueue method that throws Exception
+	// when you try to insert after the limit
+	public synchronized void enqueue(E item)
 		throws InterruptedException
 	{
+		while (this.queue.size() == this.limit) {
+			wait();
+		}
+		if (this.queue.size() == 0) {
+			notifyAll();
+		}
+		this.queue.add(item);
+	}
 
-		// define capacity of ArrayBlockingQueue
-		int capacity = 5;
+	// dequeue methods that throws Exception
+	// when you try to remove element from an
+	// empty queue
+	public synchronized E dequeue()
+		throws InterruptedException
+	{
+		while (this.queue.size() == 0) {
+			wait();
+		}
+		if (this.queue.size() == this.limit) {
+			notifyAll();
+		}
 
-		// create object of ArrayBlockingQueue
-		BlockingQueue<String> queue
-			= new ArrayBlockingQueue<String>(capacity);
+		return this.queue.remove(0);
+	}
 
-		// Add elements to ArrayBlockingQueue using put
-		// method
-		queue.put("StarWars");
-		queue.put("SuperMan");
-		queue.put("Flash");
-		queue.put("BatMan");
-		queue.put("Avengers");
-
-		// print Queue
-		System.out.println("queue contains " + queue);
-
-		// remove some elements
-		queue.remove();
-		queue.remove();
-
-		// Add elements to ArrayBlockingQueue
-		// using put method
-		queue.put("CaptainAmerica");
-		queue.put("Thor");
-
-		System.out.println("queue contains " + queue);
+	public static void main(String []args)
+	{
 	}
 }
