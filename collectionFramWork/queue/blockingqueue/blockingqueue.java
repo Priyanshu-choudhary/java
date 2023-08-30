@@ -1,4 +1,4 @@
-/ Java program that explains the internal
+// Java program that explains the internal
 // implementation of BlockingQueue
  
 import java.io.*;
