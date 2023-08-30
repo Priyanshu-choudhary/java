@@ -14,7 +14,7 @@ class GFG {
 
 		// create object of ArrayBlockingQueue
 		BlockingQueue<String> queue
-			= new ArrayBlockingQueue<String>(capacity);
+			= new ArrayBlockingQueue<String>();
 
 		// Add elements to ArrayBlockingQueue using put
 		// method
