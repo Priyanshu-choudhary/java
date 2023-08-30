@@ -3,7 +3,7 @@
 import java.util.concurrent.*;
 import java.util.*;
 
-public class GFG {
+ class BlockingQueueDemo {
 
 	public static void main(String[] args)
 		throws InterruptedException
