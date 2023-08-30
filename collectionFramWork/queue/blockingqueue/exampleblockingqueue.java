@@ -18,11 +18,11 @@ class GFG {
 
 		// Add elements to ArrayBlockingQueue using put
 		// method
-		queue.put("StarWars");
-		queue.put("SuperMan");
-		queue.put("Flash");
-		queue.put("BatMan");
-		queue.put("Avengers");
+		queue.add("StarWars");
+		queue.add("SuperMan");
+		queue.add("Flash");
+		queue.add("BatMan");
+		queue.add("Avengers");
 
 		// print Queue
 		System.out.println("queue contains " + queue);
