@@ -21,7 +21,7 @@ class GfG {
 		pQueue.add(9);
 		pQueue.add(8);
 		pQueue.add(7);
-		System.out.println(pQueue.get[0]);
+		System.out.println(pQueue);
 		// Printing the top element of PriorityQueue
 		System.out.println(pQueue.peek());
 
