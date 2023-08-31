@@ -40,5 +40,6 @@ import java.util.*;
 		difference.removeAll(b);
 		System.out.print("Difference of the two Set");
 		System.out.println(difference);
-	}
+		a.get(0);	
+}
 }
