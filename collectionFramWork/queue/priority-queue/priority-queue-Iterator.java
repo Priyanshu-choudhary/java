@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class PriorityQueueDemo {
+ class PriorityQueueDemo {
 
 	// Main Method
 	public static void main(String args[])
