@@ -5,7 +5,7 @@
 import java.util.*;
 
 // ArrayDequeDemo
-public class GGFG {
+ class GGFG {
 	public static void main(String[] args)
 	{
 		// Creating and initializing deque
