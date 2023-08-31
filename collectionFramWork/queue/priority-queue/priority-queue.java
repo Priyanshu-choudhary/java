@@ -32,8 +32,9 @@ class GfG {
 		// Printing the top element again
 		System.out.println(pQueue.peek());
         	
-for(String i:pQueue){
-	System.out.println(pQueue.elementAt[i]);
+for(int i:pQueue){
+	//System.out.println(pQueue.elementAt[i]);
+	System.out.println(pQueue.get[i]);
 }
 }
 }
