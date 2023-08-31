@@ -16,12 +16,12 @@ import java.util.*;
 		
 		// Adding all elements to List
 		a.addAll(Arrays.asList(new Integer[] { 1, 3, 2, 4, 8, 9, 0 }));
-		
+		System.out.println("A"+a);
 		// Again declaring object of Set class
 		// with reference to HashSet
 		Set<Integer> b = new HashSet<Integer>();
 		b.addAll(Arrays.asList(new Integer[] { 1, 3, 7, 5, 4, 0, 7, 5 }));
-
+		System.out.println("B"+b);
 		
 		// To find union
 		Set<Integer> union = new HashSet<Integer>(a);
