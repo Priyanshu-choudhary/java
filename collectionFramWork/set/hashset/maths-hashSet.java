@@ -15,7 +15,8 @@ import java.util.*;
 		Set<Integer> a = new HashSet<Integer>();
 		
 		// Adding all elements to List
-		a.addAll(Arrays.asList(new Integer[] { 1, 3, 2, 4, 8, 9, 0 }));
+		//a.addAll(Arrays.asList(new Integer[] { 1, 3, 2, 4, 8, 9, 0 }));
+		a.addAll(1, 3, 2, 4, 8, 9, 0);
 		System.out.println("A"+a);
 		// Again declaring object of Set class
 		// with reference to HashSet
