@@ -11,7 +11,7 @@ class arraylist {
 
 		// Declaring the ArrayList with
 		// initial size n
-		List<Integer> al = new ArrayList();
+		List<Integer> al = new ArrayList<Integer>();
 
 		// Appending new elements at
 		// the end of the list
