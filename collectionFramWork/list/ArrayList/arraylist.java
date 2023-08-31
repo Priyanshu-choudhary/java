@@ -27,6 +27,7 @@ class arraylist {
 		// Displaying the ArrayList
 		// after deletion
 		System.out.println(al);
+		System.out.println("get "+al.get(0));
 
 		// Printing elements one by one
 		for (int i = 0; i < al.size(); i++)
