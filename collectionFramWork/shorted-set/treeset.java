@@ -18,7 +18,7 @@ class SortedSetExample{
 		// Adding the duplicate
 		// element
 		ts.add("India");
-
+//		ts.get(0);
 		// Displaying the TreeSet
 		System.out.println(ts);
 
