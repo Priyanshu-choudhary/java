@@ -19,12 +19,13 @@ class CreateFile {
 
 
    try {
-      FileWriter myWriter = new FileWriter("test.txt");
       
       for(int i=0;i<10;i++){
+      FileWriter myWriter = new FileWriter("test.txt");
       myWriter.write("volt:"+a);
-      	}
-     myWriter.close();
+      myWriter.close();
+ 	}
+     
      System.out.println("Successfully wrote to the file.");
     } catch (IOException e) {
       System.out.println("An error occurred.");
