@@ -4,7 +4,8 @@ import java.io.FileWriter;
 
 class CreateFile {  
   public static void main(String[] args) {  
-    try {  
+    float a=12.6;
+   try {  
       File myObj = new File("test.txt");  
       if (myObj.createNewFile()) {  
         System.out.println("File created: " + myObj.getName());  
@@ -17,7 +18,7 @@ class CreateFile {
     }
    try {
       FileWriter myWriter = new FileWriter("test.txt");
-      myWriter.write("Files in Java might be tricky, but it is fun enough!");
+      myWriter.write("volt:"+a);
       myWriter.close();
       System.out.println("Successfully wrote to the file.");
     } catch (IOException e) {
