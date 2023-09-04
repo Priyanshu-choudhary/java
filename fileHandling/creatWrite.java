@@ -16,10 +16,15 @@ class CreateFile {
       System.out.println("An error occurred.");
       e.printStackTrace();  
     }
+
+
    try {
       FileWriter myWriter = new FileWriter("test.txt");
+      
+      for(int i=0;i<10;i++){
       myWriter.write("volt:"+a);
       myWriter.close();
+	}
       System.out.println("Successfully wrote to the file.");
     } catch (IOException e) {
       System.out.println("An error occurred.");
