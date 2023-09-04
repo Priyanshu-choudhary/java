@@ -28,7 +28,7 @@ class CreateFile {
       for(int i=0;i<10;i++){
       FileWriter myWriter = new FileWriter("test.txt");
       Date todaydate = new Date();
-      myWriter.write("volt:"+a+todaydate.toString());
+      myWriter.write("volt:"+a+"  "+todaydate.toString());
       myWriter.close();
       try {
   Thread.sleep(1000);
