@@ -1,6 +1,5 @@
-import java.io.File; 
-import java.io.IOException;
-import java.io.FileWriter; 
+import java.io.*;
+import java.util.*;
 
 class CreateFile {  
   public static void main(String[] args) {  
@@ -24,6 +23,13 @@ class CreateFile {
       FileWriter myWriter = new FileWriter("test.txt");
       myWriter.write("volt:"+a);
       myWriter.close();
+      
+
+      try {
+  Thread.sleep(1000);
+} catch (InterruptedException e) {
+  Thread.currentThread().interrupt();
+}
  	}
      
      System.out.println("Successfully wrote to the file.");
