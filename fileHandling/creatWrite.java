@@ -4,6 +4,12 @@ import java.util.*;
 class CreateFile {  
   public static void main(String[] args) {  
     double a=12.6;
+
+      //Date todaydate = new Date();
+      //System.out.println(todaydate.toString());
+
+
+
    try {  
       File myObj = new File("test.txt");  
       if (myObj.createNewFile()) {  
@@ -21,10 +27,9 @@ class CreateFile {
       
       for(int i=0;i<10;i++){
       FileWriter myWriter = new FileWriter("test.txt");
-      myWriter.write("volt:"+a);
+      Date todaydate = new Date();
+      myWriter.write("volt:"+a+todaydate.toString());
       myWriter.close();
-      
-
       try {
   Thread.sleep(1000);
 } catch (InterruptedException e) {
