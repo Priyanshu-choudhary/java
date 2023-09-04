@@ -4,7 +4,7 @@ import java.io.FileWriter;
 
 class CreateFile {  
   public static void main(String[] args) {  
-    float a=12.6;
+    double a=12.6;
    try {  
       File myObj = new File("test.txt");  
       if (myObj.createNewFile()) {  
