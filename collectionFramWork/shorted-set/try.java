@@ -7,8 +7,8 @@ import java.util.*;
 	System.out.println(args[i]);
 }*/
 	String fname =args[0];
-	String lname =args[1];
-	System.out.println(args.length);
+	String lname =args[args.length-1];
+	//System.out.println(args.length);
 	System.out.println(fname.charAt(0));
 	System.out.println(lname);
 
