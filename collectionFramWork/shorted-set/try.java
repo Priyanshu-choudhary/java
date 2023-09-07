@@ -48,7 +48,8 @@ import java.util.*;
 		Scanner in = new Scanner(System.in);
 		String inname = in.nextLine();
 		name.add(inname);
+		System.out.println("enter: ");
 		System.out.println("name: " + name);
-
+		name.split();
 }
 }
