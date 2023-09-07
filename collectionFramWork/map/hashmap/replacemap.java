@@ -4,7 +4,7 @@
 import java.util.AbstractMap;
 import java.util.HashMap;
 
-public class ReplaceElements {
+class ReplaceElements {
 
 	public static void main(String[] args)
 	{
