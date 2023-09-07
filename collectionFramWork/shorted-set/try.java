@@ -1,6 +1,4 @@
-import java.util.NavigableSet;
-import java.util.TreeSet;
-
+import java.util.*;
  class Question
 {
 	public static void main(String[] args)
