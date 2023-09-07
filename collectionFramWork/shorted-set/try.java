@@ -46,7 +46,7 @@ import java.util.*;
 	  */
 		NavigableSet<String> name = new TreeSet<>();
 		Scanner in = new Scanner(System.in);
-		String inname = in.nextString();
+		String inname = in.nextLine();
 		name.add(inname);
 		System.out.println("name: " + name);
 
