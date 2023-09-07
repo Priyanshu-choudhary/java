@@ -5,9 +5,11 @@ import java.util.*;
 
 	for(int i=0;i<args.length;i++){
 	System.out.println(args[i]);
-	String name =args[i];
 }
-	System.out.println(name.charAt(0))
+	String fname =args[0];
+	String lname =args[1];
+	System.out.println(fname.charAt(0));
+	System.out.println(lname);
 
 	}
 }
