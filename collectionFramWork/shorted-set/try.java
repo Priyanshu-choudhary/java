@@ -3,9 +3,9 @@ import java.util.*;
 {
 	public static void main(String[] args){
 
-	for(int i=0;i<args.length;i++){
-	System.out.println(args[i]);
-}
+//	for(int i=0;i<args.length;i++){
+//	System.out.println(args[i]);
+//}
 	String fname =args[0];
 	String lname =args[1];
 	System.out.println(fname.charAt(0));
