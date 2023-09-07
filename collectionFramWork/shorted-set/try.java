@@ -1,14 +1,12 @@
-// Java program to demonstrate
-// the working of NavigableSet
 import java.util.NavigableSet;
 import java.util.TreeSet;
 
- class NavigableSetDemo
+ class Question
 {
 	public static void main(String[] args)
 	{
 		NavigableSet<Integer> ns = new TreeSet<>();
-		ns.add(0);
+		ns.add(1);
 		ns.add(1);
 		ns.add(2);
 		ns.add(3);
@@ -47,5 +45,10 @@ import java.util.TreeSet;
 
 		System.out.println("pollFirst(): " + ns.pollFirst());
 		System.out.println("pollLast(): " + ns.pollLast());
-	}
+	  
+		NavigableSet<Integer> name = new TreeSet<>();
+		
+		name.add("");
+
+}
 }
