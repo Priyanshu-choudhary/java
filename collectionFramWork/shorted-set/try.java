@@ -44,7 +44,7 @@ import java.util.*;
 		System.out.println("pollFirst(): " + ns.pollFirst());
 		System.out.println("pollLast(): " + ns.pollLast());
 	  */
-		NavigableSet<Integer> name = new TreeSet<>();
+		NavigableSet<String> name = new TreeSet<>();
 		Scanner in = new Scanner(System.in);
 		String inname = in.nextString();
 		name.add(inname);
