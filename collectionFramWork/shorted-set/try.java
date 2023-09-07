@@ -49,7 +49,8 @@ import java.util.*;
 		String inname = in.nextLine();
 		name.add(inname);
 		System.out.println("enter: ");
+		name.get(1);
 		System.out.println("name: " + name);
-		name.split();
+
 }
 }
