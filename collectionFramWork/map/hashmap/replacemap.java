@@ -11,23 +11,23 @@ class ReplaceElements {
 
 		// Since AbstractMap is an abstract class
 		// create object using HashMap
-		AbstractMap<Integer, String> absMap
-			= new HashMap<Integer, String>();
+		AbstractMap<String, String> absMap
+			= new HashMap<String, String>();
 
 		// Adding values to the AbstractMap
 		// Note that we do not create an object of
 		// AbstractMap
-		absMap.put(1, "This");
-		absMap.put(2, "is");
-		absMap.put(3, "a");
-		absMap.put(4, "AbstractMap");
+		absMap.put("a","This");
+		absMap.put("b", "is");
+		absMap.put("c", "a");
+		absMap.put("d", "AbstractMap");
 
 		// Displaying the mappings
 		System.out.println("Mappings of the AbstractMap:");
 		System.out.println(absMap);
 
 		// Replacing the mapping associated to 3
-		absMap.replace(3, "an");
+		absMap.replace("c", "an");
 
 		// Displaying the mappings
 		System.out.println("\nMappings of the AbstractMap:");
