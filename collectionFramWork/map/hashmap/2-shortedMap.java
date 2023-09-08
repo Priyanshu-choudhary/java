@@ -7,8 +7,6 @@ import java.util.TreeMap;
 
 		// Adding elements to the sorted map
 		sortedMap.put("A", 1);
-		sortedMap.put(1, 3);
-		sortedMap.put(2, 2);
 		sortedMap.put("C", 3);
 		sortedMap.put("B", 2);
 
