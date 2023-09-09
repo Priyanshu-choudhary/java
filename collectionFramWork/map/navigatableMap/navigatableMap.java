@@ -37,5 +37,7 @@ import java.util.TreeMap;
 		System.out.printf("Original Map : %s%n", nm);
 		System.out.printf("Reverse Map : %s%n",
 						nm.descendingMap());
+		System.out.printf("celling Map : %s%n",
+						nm.ceilingEntry("C"));
 	}
 }
