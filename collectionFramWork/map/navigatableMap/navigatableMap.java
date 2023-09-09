@@ -14,7 +14,7 @@ import java.util.TreeMap;
 			= new TreeMap<String, Integer>();
 
 		// Add elements using put() method
-		nm.put("C", 888);
+		nm.put("Q", 24);
 		nm.put("Y", 999);
 		nm.put("A", 444);
 		nm.put("T", 555);
