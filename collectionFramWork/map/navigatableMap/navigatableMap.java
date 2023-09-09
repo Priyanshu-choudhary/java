@@ -28,7 +28,7 @@ import java.util.TreeMap;
 		System.out.printf("Descending Set : %s%n",
 						nm.descendingKeySet());
 		System.out.printf("Floor Entry : %s%n",
-						nm.floorEntry("L"));
+						nm.floorEntry("Z"));
 		System.out.printf("First Entry : %s%n",
 						nm.firstEntry());
 		System.out.printf("Last Key : %s%n", nm.lastKey());
