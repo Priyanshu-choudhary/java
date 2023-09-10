@@ -1,0 +1,10 @@
+double currencyAmount = 1500.00;
+// Create a new Locale
+Locale usa = new Locale("en", "US");
+// Create a Currency instance for the Locale
+Currency dollars = Currency.getInstance(usa);
+// Create a formatter given the Locale
+NumberFormat dollarFormat = NumberFormat.getCurrencyInstance(usa);
+
+// Format the Number into a Currency String
+System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currencyAmount));
