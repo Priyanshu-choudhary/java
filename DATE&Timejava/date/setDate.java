@@ -9,8 +9,7 @@ class LocalDateExample5
         LocalDate d1 = LocalDate.parse(dInStr);  
         System.out.println("String to LocalDate : " + d1);  
         // Example 2  
-        String dInStr2 = "2015-11-20";  
-        LocalDate d2 = LocalDate.parse(dInStr2);  
+        LocalDate d2 = LocalDate.of(2017,12,23);  
         System.out.println("String to LocalDate : " + d2);  
     }  
 }  
