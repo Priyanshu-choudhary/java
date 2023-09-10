@@ -8,13 +8,7 @@ import java.util.Currency;
   
 class Main {
     public static void main(String[] args)throws Exception{
-  
-
-        NumberFormat nF = NumberFormat.getNumberInstance();
-  
-        // Initially currency
-        System.out.println("Initially Currency: "+ nF.getCurrency());
-  
+   
         double currencyAmount = 1500.00;
 	// Create a new Locale
 	Locale usa = new Locale("en", "US");
