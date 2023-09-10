@@ -17,7 +17,7 @@ System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currenc
 Currency inr = Currency.getInstance("INR");  
 //Locale usa = new Locale("en", "US");
 
-NumberFormat inrFormat = NumberFormat.getCurrencyInstance(usa);
+NumberFormat inrFormat = NumberFormat.getCurrencyInstance(inr);
 System.out.println(inr.getDisplayName() + ": " + inrFormat.format(currencyAmount));
 
 }
