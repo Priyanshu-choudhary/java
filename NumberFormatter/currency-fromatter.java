@@ -1,10 +1,22 @@
+import java.util.*;
+class stringFromatter{
+public static void main(String[] args){
+
 double currencyAmount = 1500.00;
 // Create a new Locale
-Locale usa = new Locale("en", "US");
-// Create a Currency instance for the Locale
-Currency dollars = Currency.getInstance(usa);
-// Create a formatter given the Locale
-NumberFormat dollarFormat = NumberFormat.getCurrencyInstance(usa);
 
-// Format the Number into a Currency String
+Locale usa = new Locale("en", "US");
+Currency dollars = Currency.getInstance(usa);
+NumberFormat dollarFormat = NumberFormat.getCurrencyInstance(usa);
 System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currencyAmount));
+
+
+
+
+Currency inr = Currency.getInstance("INR");  
+//Locale usa = new Locale("en", "US");
+
+NumberFormat inrFormat = NumberFormat.getCurrencyInstance(usa);
+System.out.println(inr.getDisplayName() + ": " + inrFormat.format(currencyAmount));
+
+}
