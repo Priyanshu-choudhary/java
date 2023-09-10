@@ -1,5 +1,5 @@
 import java.time.LocalDate;    
-public class LocalDateExample1 {    
+ class LocalDateExample1 {    
   public static void main(String[] args) {    
     LocalDate date = LocalDate.now();    
     LocalDate yesterday = date.minusDays(1);    
