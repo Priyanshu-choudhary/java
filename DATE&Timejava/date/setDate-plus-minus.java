@@ -4,8 +4,8 @@ class LocalTimeExample6 {
     LocalDate d = LocalDate.of(2020,07,22);  
     System.out.println(d);  
     LocalDate d2 =d.minusDays(2);
-    LocalDate d2 =d.minusMounths(5);  
-    LocalDate d2 =d.minusYears(5);
-    System.out.println(d2);  
+    LocalDate d3 =d2.minusMonths(5);  
+    LocalDate d4 =d3.minusYears(5);
+    System.out.println(d4);  
   }  
 }  
