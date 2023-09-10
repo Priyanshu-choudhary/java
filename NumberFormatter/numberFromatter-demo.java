@@ -13,7 +13,7 @@ class NumberFormatDemo {
 		nf = NumberFormat.getInstance(Locale.US);
 		System.out.println("ITALY representation of " + d + " : " + nf.format(d));
 		
-		nf = NumberFormat.getInstance(Locale.INDIA);
+		nf = NumberFormat.getInstance(Locale.India);
 		System.out.println("ITALY representation of " + d + " : " + nf.format(d));
 		
 }
