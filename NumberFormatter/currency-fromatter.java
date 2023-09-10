@@ -6,20 +6,24 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Currency;
   
-public class Main {
+class Main {
     public static void main(String[] args)throws Exception{
   
-	double value = 4.2352989244d;
 
         NumberFormat nF = NumberFormat.getNumberInstance();
   
         // Initially currency
         System.out.println("Initially Currency: "+ nF.getCurrency());
   
-        // Currency set to US
-        nF.setCurrency(Currency.getInstance(Locale.CANADA));
-  
-        // Print the currency
-        System.out.println("Currency set as: "+ nF.getCurrency());
+        double currencyAmount = 1500.00;
+	// Create a new Locale
+	Locale usa = new Locale("en", "US");
+// Create a Currency instance for the Locale
+	Currency dollars = Currency.getInstance(usa);
+// Create a formatter given the Locale
+	NumberFormat dollarFormat = NumberFormat.getCurrencyInstance(usa);
+
+// Format the Number into a Currency String
+	System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currencyAmount));
     }
 }
