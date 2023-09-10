@@ -1,4 +1,4 @@
-import java.time.LocalTime;  
+import java.time.LocalDate;  
 class LocalTimeExample6 {  
   public static void main(String[] args) {  
     LocalDate d = LocalDate.of(2020,07,22);  
