@@ -10,5 +10,8 @@ class DayOfWeekExample5
         System.out.println("Day of the Week on" + " 13th September 2021 - " + dayOfWeek.name());  
         int val = dayOfWeek.getValue();  
         System.out.println("Int Value of " + dayOfWeek.name() + " - " + val);  
+	LocalDate todayDate =LocalDate.now();
+	DayOfWeek weektoday = DayOfWeek.from(todayDate); 
+	System.out.println("Day of the Week on" + " today - " + weektoday.name());
     }  
 }  
