@@ -7,7 +7,6 @@ class LocalDateExample2 {
 	System.out.println("Is 2017 1 13 date is leap year or not    :"+date1.isLeapYear());    
     LocalDate date2 = LocalDate.of(2016, 9, 23);    
     System.out.println("Is 2016 9 23 date is leap year or not    :"+date2.isLeapYear());    
-    System.out.println("day of that date    :"+date2.DayOfWeek());    
 
 }    
 }  

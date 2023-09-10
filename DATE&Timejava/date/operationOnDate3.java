@@ -28,5 +28,6 @@ class Main
         System.out.println("Before setting "+d2);
         d2.setTime(204587433443L);
         System.out.println("After setting "+d2);
+        System.out.println("day of that date    :"+d1.DayOfWeek());
     }
 }
