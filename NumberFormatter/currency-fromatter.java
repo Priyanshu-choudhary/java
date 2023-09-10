@@ -14,12 +14,13 @@ class Main {
 	Locale usa = new Locale("en", "US");
 // Create a Currency instance for the Locale
 	Currency dollars = Currency.getInstance(usa);
+	Currency yen = Currency.getInstance(japan);
 // Create a formatter given the Locale
 	NumberFormat dollarFormat = NumberFormat.getCurrencyInstance(usa);
-	NumberFormat dollarFormat2 = NumberFormat.getCurrencyInstance(canada);
+	NumberFormat dollarFormat2 = NumberFormat.getCurrencyInstance(japan);
 // Format the Number into a Currency String
 	System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currencyAmount));
-  	System.out.println(dollars.getDisplayName() + ": " + dollarFormat2.format(currencyAmount));
+  	System.out.println(yen.getDisplayName() + ": " + dollarFormat2.format(currencyAmount));
   	//System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currencyAmount));
     }
 }
