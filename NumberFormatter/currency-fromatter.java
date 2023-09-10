@@ -1,6 +1,6 @@
 import java.text.*;
 import java.util.*;
-class currency-fromatter-demo{
+class currencyFromatterDemo{
 public static void main(String[] args){
 
 double currencyAmount = 1500.00;
