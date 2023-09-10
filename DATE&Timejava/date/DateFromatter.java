@@ -1,6 +1,6 @@
 import java.time.LocalDate;  
 import java.time.format.DateTimeFormatter;  
-public class LocalDateExample4  
+class LocalDateExample4  
 {  
     public static void main(String ar[])  
     {  
