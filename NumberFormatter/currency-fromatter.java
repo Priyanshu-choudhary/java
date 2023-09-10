@@ -16,8 +16,10 @@ class Main {
 	Currency dollars = Currency.getInstance(usa);
 // Create a formatter given the Locale
 	NumberFormat dollarFormat = NumberFormat.getCurrencyInstance(usa);
-
+	NumberFormat dollarFormat2 = NumberFormat.getCurrencyInstance(canada);
 // Format the Number into a Currency String
 	System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currencyAmount));
+  	System.out.println(dollars.getDisplayName() + ": " + dollarFormat2.format(currencyAmount));
+  	//System.out.println(dollars.getDisplayName() + ": " + dollarFormat.format(currencyAmount));
     }
 }
