@@ -11,6 +11,6 @@ class LocalTimeExample3 {
 
      time2=time1.plusHours(2);  
      time3=time2.plusMinutes(34);  
-    System.out.println("minus hours and min"+time3);
+    System.out.println("plus hours and min"+time3);
   }  
 }  
