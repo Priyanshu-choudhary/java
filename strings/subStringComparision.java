@@ -21,7 +21,7 @@ public static void main(String args[]){
                 System.out.print("subn "+subn);
 				
             	System.out.println("   check  "+sub.compareTo(subn));
-				if(sub.compareTo(subn)>0){
+				if(sub.compareTo(subn)<0){
 					small=0;
 				}
 				if(sub.compareTo(subn)<0){
@@ -29,7 +29,7 @@ public static void main(String args[]){
 				}
 			}
 			if(rg==1){System.out.println("  greatest=   "+sub);}	
-			if(small==0){System.out.println("  smallest=   "+sub);}
+			if(small==1){System.out.println("  smallest=   "+sub);}
         }
         
  
