@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 class Solution {
 
-public static void main(String args[]); 
+public static void main(String args[]){ 
         String smallest = "";
         String largest = "";
         String s="welcometojava";
+		int k=3;
         // Complete the function
         // 'smallest' must be the lexicographically smallest substring of length 'k'
         // 'largest' must be the lexicographically largest substring of length 'k'
