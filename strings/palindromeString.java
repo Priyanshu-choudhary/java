@@ -9,7 +9,7 @@ class Solution {
      String A=sc.next();
 	 int lc=0;
 	 if(A.length()%2==0){lc=A.length()/2;}
-	 else{lc=A.length()-1/2;}
+	 else{lc=(A.length()-1)/2;}
 	 System.out.println(lc);
 	 for(int i=0;i<lc;i++){
 		if(A.charAt(i)==A.charAt(A.length()-i)){
