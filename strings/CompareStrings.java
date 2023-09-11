@@ -2,7 +2,7 @@ class CompareString{
  public static void main(String args[]){
    String s1="Sachin";
    String s2="Sachin";
-   String s3="SACHIN";
+   String s3="zadi";
    String s4="yadi";
 //equals method
    System.out.println(s1.equals(s2));
