@@ -4,6 +4,9 @@ class Solution {
 
     static boolean isAnagram(String a, String b) {
         // Complete the function
+		a=a.toUpperCase();
+		b=b.toLowerCase();
+
 		int frequency=0;
         Map<Character,Integer> tm =new TreeMap<Character,Integer>();
 		Map<Character,Integer> tm2 =new TreeMap<Character,Integer>();
@@ -29,6 +32,12 @@ class Solution {
 			}
 		System.out.println(tm);
 		System.out.println(tm2);
+
+
+	if(tm.equals(tm2)){
+			System.out.println("equal");
+			}
+
         return true;
     }
 
