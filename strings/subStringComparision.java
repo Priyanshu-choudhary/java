@@ -26,12 +26,14 @@ public static void main(String args[]){
 				}
 				if(sub.compareTo(subn)<0){
 					rg=0;
-					System.out.println("  value changed   ");
+					//System.out.println("  value changed   ");
 				}
 			}
 			if(rg==1){System.out.println("  greatest=   "+sub);}	
 			if(small==1){System.out.println("  smallest=   "+sub);}
-        }
+        	int rg=0;
+			int small=0;
+		}
         
  
   }
