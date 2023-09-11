@@ -11,13 +11,13 @@ class Solution {
 	 if(A.length()%2==0){lc=A.length()/2;}
 	 else{lc=(A.length()-1)/2;}
 	 System.out.println(lc);
-	try{ 
+	 
 	for(int i=0;i<lc;i++){
-		if(A.charAt(i)==A.charAt(A.length()-i)){
+		if(A.charAt(i)==A.charAt(A.length()-i-1)){
 			System.out.printf("  T ");
 		}else{
 			System.out.printf("  F ");	
 			}
 		}
-	}}catch Exeption e{}
+	}
 }
