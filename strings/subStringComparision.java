@@ -17,7 +17,7 @@ public static void main(String args[]){
             for(int j=0;j<=s.length()-k-1;j++){
                 String subn=s.substring(j+1,j+k+1);
                 System.out.println("subn "+subn);
-            	System.out.print("check  "+sub.compateTo(subn));
+            	System.out.print("check  "+sub.compareTo(subn));
 			}
 				
         }
