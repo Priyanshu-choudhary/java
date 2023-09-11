@@ -5,7 +5,7 @@ class Solution {
     static boolean isAnagram(String a, String b) {
         // Complete the function
 		int frequency=0;
-        Map<String,Integer> tm =new TreeMap<String,Integer>();
+        Map<char,Integer> tm =new TreeMap<char,Integer>();
 
 		for(int i=0;i<a.length();i++){
 			for(int j=0;j<a.length();j++){
