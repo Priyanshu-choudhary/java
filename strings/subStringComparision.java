@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class Solution {
+class Solution {
     public static String getSmallestAndLargest(String s, int k) {
          NavigableSet<String> ns = new TreeSet<>();
         
