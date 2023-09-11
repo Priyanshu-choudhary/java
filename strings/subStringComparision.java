@@ -41,6 +41,7 @@ public static void main(String args[]){
 */
 		}
         System.out.println(ns);
- 
+ 		System.out.println(ns.pollLast());
+		System.out.println(ns.pollFirst());
   }
 }
