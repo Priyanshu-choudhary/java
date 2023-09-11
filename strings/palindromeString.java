@@ -12,7 +12,7 @@ public class Solution {
 	 else{lc=A.length()-1/2;}
 	
 	 for(int i=0;i<lc;i++){
-		if(A.charAt(i)==A.charAt(A.length()-i))
+		if(A.charAt(i)==A.charAt(A.length()-i)){
 			System.out.printf("  T ");
 		}else{
 			System.out.printf("  F ");	
