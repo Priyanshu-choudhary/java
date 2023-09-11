@@ -20,4 +20,5 @@ static String getSmallestAndLargest(String s, int k) {
         }
         
  
-    }
+  }
+}
