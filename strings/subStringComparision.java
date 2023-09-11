@@ -3,7 +3,9 @@ import java.util.Scanner;
 class Solution {
 
 public static void main(String args[]){ 
-        String smallest = "";
+         NavigableSet<Integer> ns = new TreeSet<>();       
+
+		String smallest = "";
         String largest = "";
         String s="welcometojava";
 		int k=3;
@@ -15,11 +17,11 @@ public static void main(String args[]){
         for(int i=0;i<=s.length()-k;i++){
             String sub= s.substring(i,i+k);
             //System.out.println(sub);
-            
-            for(int j=0;j<=s.length()-k-1;j++){
+            ns.add(subn); 
+          /*  for(int j=0;j<=s.length()-k-1;j++){
                 String subn=s.substring(j+1,j+k+1);
                 //System.out.print("subn "+subn);
-				
+				      
             	//System.out.println("   check  "+sub.compareTo(subn));
 				if(sub.compareTo(subn)>0){
 					small=0;
@@ -33,8 +35,11 @@ public static void main(String args[]){
         	//System.out.println("small "+small+" greatest "+rg);
 			rg=1;
 			small=1;
+		
+
+*/
 		}
-        
+        System.out.println(ns);
  
   }
 }
