@@ -28,8 +28,8 @@ public static void main(String args[]){
 					rg=0;
 				}
 			}
-			if(rg==1){System.out.println("  greatest=   "+sub}	
-			if(rs==1){System.out.println("  smallest=   "+sub}
+			if(rg==1){System.out.println("  greatest=   "+sub);}	
+			if(rs==1){System.out.println("  smallest=   "+sub);}
         }
         
  
