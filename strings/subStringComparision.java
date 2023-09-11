@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
-static String getSmallestAndLargest(String s, int k) {
+public static void main(String args[]); 
         String smallest = "";
         String largest = "";
         String s="welcometojava";
