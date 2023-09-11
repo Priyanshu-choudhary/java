@@ -23,16 +23,16 @@ public static void main(String args[]){
             	System.out.println("   check  "+sub.compareTo(subn));
 				if(sub.compareTo(subn)>0){
 					small=0;
-				}else{small=1;}
+				}else{//small=1;}
 				if(sub.compareTo(subn)<0){
 					rg=0;
-				}else{rg=1;}
+				}else{//rg=1;}
 			}
 			if(rg==1){System.out.println("  greatest=   "+sub);}	
 			if(small==1){System.out.println("  smallest=   "+sub);}
         	System.out.println("small "+small+" greatest "+rg);
-			rg=0;
-			small=0;
+			rg=1;
+			small=1;
 		}
         
  
