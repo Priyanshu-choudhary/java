@@ -35,10 +35,12 @@ class Solution {
 
 
 	if(tm.equals(tm2)){
-			System.out.println("equal");
-			}
+			return true;
+			}else{
+				return false;
+				}
 
-        return true;
+        
     }
 
   public static void main(String[] args) {
@@ -48,6 +50,6 @@ class Solution {
         String b = scan.next();
         scan.close();
         boolean ret = isAnagram(a, b);
-        //System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
     }
 }
