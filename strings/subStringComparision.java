@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
 
 public static void main(String args[]){ 
-         NavigableSet<Integer> ns = new TreeSet<>();       
+         NavigableSet<String> ns = new TreeSet<>();       
 
 		String smallest = "";
         String largest = "";
