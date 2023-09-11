@@ -31,8 +31,8 @@ public static void main(String args[]){
 			}
 			if(rg==1){System.out.println("  greatest=   "+sub);}	
 			if(small==1){System.out.println("  smallest=   "+sub);}
-        	int rg=0;
-			int small=0;
+        	 rg=0;
+			small=0;
 		}
         
  
