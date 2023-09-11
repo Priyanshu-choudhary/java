@@ -8,7 +8,7 @@ public static void main(String args[]){
         String s="welcometojava";
 		int k=3;
 		int rg=1;
-		int rs=1;
+		int small=1;
         // Complete the function
         // 'smallest' must be the lexicographically smallest substring of length 'k'
         // 'largest' must be the lexicographically largest substring of length 'k'
@@ -22,14 +22,14 @@ public static void main(String args[]){
 				
             	System.out.println("   check  "+sub.compareTo(subn));
 				if(sub.compareTo(subn)>0){
-					rs=0;
+					small=0;
 				}
 				if(sub.compareTo(subn)<0){
 					rg=0;
 				}
 			}
 			if(rg==1){System.out.println("  greatest=   "+sub);}	
-			if(rs==0){System.out.println("  smallest=   "+sub);}
+			if(small==0){System.out.println("  smallest=   "+sub);}
         }
         
  
