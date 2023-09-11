@@ -4,7 +4,7 @@ class Solution {
 
     static boolean isAnagram(String a, String b) {
         // Complete the function
-        List<Integer> li =new LinkList<Integer>();
+        List<Integer> li =new ArrayList<Integer>();
         return true;
     }
 
