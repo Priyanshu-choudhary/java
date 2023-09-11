@@ -14,13 +14,13 @@ public static void main(String args[]){
         // 'largest' must be the lexicographically largest substring of length 'k'
         for(int i=0;i<=s.length()-k;i++){
             String sub= s.substring(i,i+k);
-            System.out.println(sub);
+            //System.out.println(sub);
             
             for(int j=0;j<=s.length()-k-1;j++){
                 String subn=s.substring(j+1,j+k+1);
-                System.out.print("subn "+subn);
+                //System.out.print("subn "+subn);
 				
-            	System.out.println("   check  "+sub.compareTo(subn));
+            	//System.out.println("   check  "+sub.compareTo(subn));
 				if(sub.compareTo(subn)>0){
 					small=0;
 				}else{}
@@ -30,7 +30,7 @@ public static void main(String args[]){
 			}
 			if(rg==1){System.out.println("  greatest=   "+sub);}	
 			if(small==1){System.out.println("  smallest=   "+sub);}
-        	System.out.println("small "+small+" greatest "+rg);
+        	//System.out.println("small "+small+" greatest "+rg);
 			rg=1;
 			small=1;
 		}
