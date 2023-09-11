@@ -14,7 +14,7 @@ public static void main(String args[]){
             String sub= s.substring(i,i+k);
             System.out.println(sub);
             
-            for(int j=0;j<=s.length()-k+1;j++){
+            for(int j=0;j<=s.length()-k;j++){
                 String subn=s.substring(j+1,j+k+1);
                 System.out.println("subn "+subn);
             }
