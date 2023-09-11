@@ -11,6 +11,7 @@ class SortedSetExample{
 
 		// Adding elements into the TreeSet
 		// using add()
+		ts.add("Zimbabea");
 		ts.add("India");
 		ts.add("Australia");
 		ts.add("South Africa");
