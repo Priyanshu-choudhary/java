@@ -10,6 +10,11 @@ class Solution {
             }
              String largest = ns.pollLast(); 
              String smallest = ns.pollFirst();  
+			 if(largest == null){
+                largest=smallest;
+             }if(smallest == null){
+                smallest=largest;
+             } 
         return smallest + "\n" + largest;
     }
 
