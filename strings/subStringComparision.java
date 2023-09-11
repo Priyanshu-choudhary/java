@@ -29,7 +29,7 @@ public static void main(String args[]){
 				}
 			}
 			if(rg==1){System.out.println("  greatest=   "+sub);}	
-			if(small==1){System.out.println("  smallest=   "+sub);}
+			if(small==0){System.out.println("  smallest=   "+sub);}
         }
         
  
