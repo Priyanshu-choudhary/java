@@ -4,7 +4,19 @@ class Solution {
 
     static boolean isAnagram(String a, String b) {
         // Complete the function
-        List<Integer> li =new ArrayList<Integer>();
+		int frequency=0;
+        Map<String,Integer> tm =new TreeMap<String,Integer>();
+
+		for(int i=0;i<a.length();i++){
+			for(int j=0;j<a.length();j++){
+				if(a.charAt(i)==a.charAt(j)){
+					frequency++;
+					tm.put(a.charAt(i),frequency);
+					}
+				}
+			frequency=0;
+			}
+		System.out.println(tm);
         return true;
     }
 
@@ -15,6 +27,6 @@ class Solution {
         String b = scan.next();
         scan.close();
         boolean ret = isAnagram(a, b);
-        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+        //System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
     }
 }
