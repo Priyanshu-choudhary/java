@@ -6,9 +6,11 @@ class Simple{
    StringTokenizer st2= new StringTokenizer(s);  
 	while (st.hasMoreTokens()) {  
          System.out.println(st.nextToken());  
-     }  
+     }
+	System.out.println("Total number of Tokens: "+st.countTokens());  
 	 while (st2.hasMoreTokens()) {
          System.out.println(st2.nextToken());       
 	    }   
+	System.out.println("Total number of Tokens: "+st2.countTokens());
    }  
 } 
