@@ -7,10 +7,10 @@ class Simple{
 	while (st.hasMoreTokens()) {  
          System.out.println(st.nextToken());  
      }
-	System.out.println("Total number of Tokens: "+st.countTokens());  
+	//System.out.println("Total number of Tokens: "+st.countTokens());  
 	 while (st2.hasMoreTokens()) {
          System.out.println(st2.nextToken());       
 	    }   
-	System.out.println("Total number of Tokens: "+st2.countTokens());
+	//System.out.println("Total number of Tokens: "+st2.countTokens());
    }  
 } 
