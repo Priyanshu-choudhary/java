@@ -1,4 +1,4 @@
-
+import java.util.*;
 class Simple{  
  public static void main(String args[]){  
    StringTokenizer st = new StringTokenizer("my name is khan");  
