@@ -3,7 +3,7 @@ class Simple{
  public static void main(String args[]){  
    StringTokenizer st = new StringTokenizer("my name is khan");  
    String s="Hello everyone I am a Java developer";
-   StringTokenizer st2=s;  
+   StringTokenizer st2= new StringTokenizer(s);  
 	while (st.hasMoreTokens()) {  
          System.out.println(st.nextToken());  
      }  
