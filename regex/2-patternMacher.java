@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.regex.*;
 
 // Driver class
-class GFG {
+class patternMacher {
 	// Main function
 	public static void main(String[] args)
 	{
