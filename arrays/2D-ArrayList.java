@@ -26,6 +26,7 @@ public static void main(String[] args) throws IOException{
    in.close();
     
     System.out.println(arr);
+    System.out.println( arr.get(0).get(1));
  }
 }
 

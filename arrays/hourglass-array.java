@@ -28,7 +28,10 @@ public static void main(String[] args) throws IOException {
     
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
-            int hourGlassSum = arr.get(i).get(j) + arr.get(i).get(j + 1) + arr.get(i).get(j + 2) + arr.get(i + 1).get(j + 1) + arr.get(i + 2).get(j) + arr.get(i + 2).get(j + 1) + arr.get(i + 2).get(j + 2);
+            int hourGlassSum = 
+            arr.get(i).get(j) + arr.get(i).get(j + 1) + arr.get(i).get(j + 2) + 
+            arr.get(i + 1).get(j + 1) +
+            arr.get(i + 2).get(j) + arr.get(i + 2).get(j + 1) + arr.get(i + 2).get(j + 2);
             
             maxHourglassSum = Math.max(maxHourglassSum, hourGlassSum);
         }
