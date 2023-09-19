@@ -1,0 +1,4 @@
+string         Dublicate removeable
+string         valid user name
+string         tag Sectror
+2D array       hourglass

@@ -11,16 +11,17 @@ public static void main(String[] args) {
     int numSentences = Integer.parseInt(in.nextLine());
     
     while (numSentences-- > 0) {
-        String input = in.nextLine();
+        String ss = in.nextLine();
         
-        Matcher m = p.matcher(input);
+        Matcher m = p.matcher(ss);
         
-        // Check for subsequences of input that match the compiled pattern
+        // Check for subsequences of ss that match the compiled pattern
         while (m.find()) {
-            input = input.replaceAll(regex, "$1");
+            ss = ss.replaceAll(regex, "$1");
         }
         // Prints the modified sentence.
-        System.out.println(input);
+        System.out.println(ss);
+       
     }
     
     in.close();
