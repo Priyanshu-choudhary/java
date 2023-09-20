@@ -9,6 +9,7 @@ class Solution{
             String s=sc.next();
 		    ns.add(Double.parseDouble(s));
         }
-        System.out.println("Normal order: " + ns);
+        NavigableSet<Double> reverseNs = ns.descendingSet();
+        System.out.println("Normal order: " + reverseNs);
     }
 }
