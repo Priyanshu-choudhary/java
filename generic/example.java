@@ -1,7 +1,7 @@
 import java.util.*;
 class example{
 public static void main (String args[]){
-List<String> words = new ArrayList<String>();
+List<String> words = new ArrayListQuestion<String>();
 words.add("Hello ");
 words.add("world!");
 String s = words.get(0)+words.get(1);

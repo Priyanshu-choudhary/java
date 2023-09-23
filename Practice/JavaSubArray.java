@@ -8,9 +8,9 @@ public class JavaSubArray {
         int sum = 0;
         int result = 0;
 
-        List<Integer> li = new ArrayList<Integer>();
+        List<Integer> li = new ArrayListQuestion<Integer>();
         Scanner in = new Scanner(System.in);
-        List<Integer> temp = new ArrayList<Integer>();
+        List<Integer> temp = new ArrayListQuestion<Integer>();
         int length = in.nextInt();
         for (int index = 0; index < length; index++) {
             li.add(in.nextInt());
