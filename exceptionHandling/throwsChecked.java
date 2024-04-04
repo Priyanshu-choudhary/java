@@ -1,6 +1,6 @@
 import java.io.*;  
   
-public class throwChecked {   
+public class throwsChecked {   
   
     //function to check if person is eligible to vote or not   
     public static void method() throws FileNotFoundException {  
