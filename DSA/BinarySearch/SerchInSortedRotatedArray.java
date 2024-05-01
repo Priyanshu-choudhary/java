@@ -37,8 +37,8 @@ import java.util.*;
     }
 
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(7, 8, 1, 2, 3, 3, 3, 4, 5, 6));
-        int n = 9, k = 4;
+        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(5,1,3));
+        int n = 3, k = 3;
         int ans = search(arr, n, k);
         if (ans == -1)
             System.out.println("Target is not present.");
