@@ -2,35 +2,37 @@
     /*
      * upper bond in array is no. which is just 1 greater to target number.
      */
-    class Solution {
-        public static int lowerBound(int[] nums, int n, int target) {
-            // Write your code here
-            int si = 0;
-            int en = nums.length - 1;
-            int mid = 0;
-            int ans=-1;
-            while (si <= en) {
+     class Solution {
+        public static int lowerBound(int[] arr, int n, int x) {
+          int low = 0, high = n;
+          int ans=0;
+          while (low < high)
+        {
+            int mid = low + (high - low) / 2;
 
-             mid = si + (en - si) / 2;
-              if (target<=nums[mid]) {
-                ans=mid;
-                en=mid-1;
-              }else{
-                si=mid+1;
-              }
+            // If x is greater than or equal to arr[mid],
+            // we search in [mid+1,high].
+            if (arr[mid] <= x)
+            {
+                low = mid + 1;
             }
-           
-            return ans;
-
+            // Else we search in [low,mid].
+            else
+            {
+                high = mid;
+            }
+        }
+          return low;
+        
         }
     }
 
 
-class FindUpperBondIndex {
+public class FindUpperBondIndex {
     public static void main(String[] args) {
         Solution sc = new Solution();
-        int[] nums = { 1 ,4, 7 ,8 ,10};
-        int target = 3;
-        System.out.println(sc.lowerBound(nums, target, target));
+        int[] nums = { 5, 12 ,12 ,15 ,18 ,21 ,35 ,37 ,38 ,46 ,47 ,48 ,48, 50  };
+        int target = 45;
+        System.out.println(sc.lowerBound(nums, nums.length-1, target));
     }
 }

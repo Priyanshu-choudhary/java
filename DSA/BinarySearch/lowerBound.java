@@ -9,22 +9,21 @@ public class lowerBound {
         while (low <= high) {
           
             int mid = (low + high) / 2;
-            System.out.println("low: "+arr[low]+" mid: "+arr[mid]+" high: "+arr[high]+" ");
+          System.out.println(mid);
             // maybe an answer
-            if (arr[mid] >= x) {
-                ans = mid;
-                //look for smaller index on the left
-                high = mid - 1;
-            } else {
-                low = mid + 1; // look on the right
+            if (arr[mid]<x) {
+                low=mid+1;
+            }else{
+                high=mid-1;
+               
             }
         }
-        return ans-1;
+        return low;
     }
 
     public static void main(String[] args) {
-        int[] arr = {3, 5, 8, 15, 19};
-        int n = 5, x = 9;
+        int[] arr = {1, 2, 2, 3};
+        int n = 4, x = 2;
         int ind = lowerBound(arr, n, x);
         System.out.println("The lower bound is the index: " + ind);
     }
