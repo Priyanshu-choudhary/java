@@ -31,8 +31,8 @@
 public class FindUpperBondIndex {
     public static void main(String[] args) {
         Solution sc = new Solution();
-        int[] nums = { 5, 12 ,12 ,15 ,18 ,21 ,35 ,37 ,38 ,46 ,47 ,48 ,48, 50  };
-        int target = 45;
+        int[] nums = {2,5,7  };
+        int target = 1;
         System.out.println(sc.lowerBound(nums, nums.length-1, target));
     }
 }

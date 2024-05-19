@@ -6,31 +6,39 @@
     -to check is it is exits in between mid to en(right part) condition(taget<=arr[en] && target >= arr[mid]) if exists then (si =mid+1)
  */
 import java.util.*;
-
-public class MinimumInRotatedSortedArray{
-   public static int search(ArrayList<Integer> arr, int n, int k) {
-       int si = 0, en = n - 1;
-       int ans=arr.get(0);
-       int min=arr.getFirst();
-       while (si <= en) {
-           int mid = (si + en) / 2;
-
-           // if left part is sorted
-           if (arr.get(si) <= arr.get(mid)) {
-                  si = mid + 1;
-
-              
-           } else { // if right part is sorted
-              
-                  en = mid - 1;
+public class MinimumI {
+    public static int findMin(int []arr) {
+        // Write your code here.
+        int low=0,high=arr.length-1,ans=0;
+      
+       while(low<=high){
+       //   for(int i=0;i<5;i++){
+              int mid=(low+high)/2;
+            
+            try{
+                 // System.out.println(arr[mid]);
+              if(arr[mid-1]>arr[mid]&&arr[mid+1]>arr[mid]){
+                //  System.out.println("woooooo"+arr[mid]);
+                
+                  return arr[mid];
+              }
+            }catch(Exception e)
+            {  if(arr[0]<arr[arr.length-1]){
+                return arr[0];
+            }else{
+                return arr[arr.length-1];
+            }
+            }
+              if (arr[mid]<=arr[high]) {
                   
-              
-           }
-           System.out.println(arr.get(si));
-            ans = Math.min(ans, arr.get(si));
-       }
-       return ans;
-   }
+                  high=mid-1;
+              }else{
+                  low=mid+1;
+              }
+        }
+        return -1;
+    }
+}
 
    public static void main(String[] args) {
        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(7, 8, 1, 2, 3, 4, 5, 6));
