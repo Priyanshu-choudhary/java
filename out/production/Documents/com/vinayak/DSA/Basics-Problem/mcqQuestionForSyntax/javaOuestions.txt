@@ -1,0 +1,8 @@
+1. Write a Java program to add two binary numbers.
+2. Write a Java program to multiply two binary numbers.
+3. Write a Java program to convert an integer number to a binary number.
+4. Write a Java program to convert a decimal number to a hexadecimal number.
+5. Write a Java program to convert a decimal number to an octal number.
+6. Write a Java program to convert a binary number to a decimal number.
+7. Write a Java program to reverse a string.
+8. Write a Java program to count letters, spaces, numbers and other characters in an input string.
